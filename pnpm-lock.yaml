@@ -8,6 +8,9 @@ dependencies:
   '@anastasia-labs/lucid-cardano-fork':
     specifier: ^0.10.7
     version: 0.10.7
+  lucid-cardano:
+    specifier: ^0.10.7
+    version: 0.10.7
 
 devDependencies:
   '@types/node':
@@ -617,6 +620,18 @@ packages:
     dependencies:
       get-func-name: 2.0.2
     dev: true
+
+  /lucid-cardano@0.10.7:
+    resolution: {integrity: sha512-hxJRMWj8VH+SGFqsVMG6T3LSRuxzwFbWOQ5DTGQQUyR/20FL7bjiVL+2ivMJF52tAbFKcwqpRD4fddR7LbqcAw==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@peculiar/webcrypto': 1.4.5
+      node-fetch: 3.3.2
+      ws: 8.16.0
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+    dev: false
 
   /magic-string@0.30.8:
     resolution: {integrity: sha512-ISQTe55T2ao7XtlAStud6qwYPZjE4GK1S/BeVPus4jrq6JuOnQ00YKQC581RWhR122W7msZV263KzVeLoqidyQ==}

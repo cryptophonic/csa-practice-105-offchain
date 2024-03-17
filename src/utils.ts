@@ -1,4 +1,4 @@
-import { Address, Lucid, getAddressDetails } from "@anastasia-labs/lucid-cardano-fork";
+import { Address, Lucid, getAddressDetails } from "lucid-cardano";
 import { AddressD } from "./contract-schema.js";
 
 // addr1....

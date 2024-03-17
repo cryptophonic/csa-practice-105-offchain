@@ -204,7 +204,6 @@ describe('properties', () => {
   it('should always contain its substrings', () => {
     fc.assert(
       fc.property(fc.string(), fc.string(), fc.string(), (a, b, c) => {
-        console.log(a, " - ",b," - ",c)
         // Alternatively: no return statement and direct usage of expect or assert
         return contains(a + b + c, b);
       }),

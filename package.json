@@ -19,6 +19,7 @@
     "vitest": "0.34.6"
   },
   "dependencies": {
-    "@anastasia-labs/lucid-cardano-fork": "^0.10.7"
+    "@anastasia-labs/lucid-cardano-fork": "^0.10.7",
+    "lucid-cardano": "^0.10.7"
   }
 }
